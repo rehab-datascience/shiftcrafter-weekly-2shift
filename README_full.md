@@ -22,7 +22,7 @@
 ---
 
 ## 使い方
-1. デモURLを開く　**https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html** 
+1. デモURLを開く：**https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html** 
 2. 入力項目を設定  
    - 週の開始日（例：2025-10-06）  
    - 日勤・夜勤の必要人数  
