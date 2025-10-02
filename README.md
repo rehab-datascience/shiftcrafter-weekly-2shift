@@ -2,7 +2,7 @@
 
 ブラウザだけで動く、**二交代制（日勤/夜勤）の1週間シフト自動割当ツール**です。インストール不要・データ送信なし。
 
-- デモ（GitHub Pages）：https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/
+- デモ（GitHub Pages）：https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html
 - リポジトリ：https://github.com/rehab-datascience/shiftcrafter-weekly-2shift
 
 ## 使い方（最小）
