@@ -3,7 +3,7 @@
 二交代制（**日勤・夜勤**）の **1週間シフト自動割当**ツールです。  
 インストール不要・**完全クライアントサイド**（データは端末内で処理／送信なし）。
 
-- デモ（GitHub Pages）：**https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/**
+- デモ（GitHub Pages）：**https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html**
 - ソース：このリポジトリ直下の `index.html`
 
 ---
@@ -22,7 +22,7 @@
 ---
 
 ## 使い方
-1. **デモURL**（https://rehab-datascience.github.io/shiftcrafter-weekly-2-shift/ ではなく → **https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/**）を開く  
+1. **デモURL（https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html**）を開く  
 2. 入力項目を設定  
    - 週の開始日（例：2025-10-06）  
    - 日勤・夜勤の必要人数  
@@ -57,7 +57,7 @@
 ---
 
 ## ロードマップ（予告）
-- **Part 2：1か月シフト**（月カレンダー/ICS出力）  
+- **Part 2：1か月シフト**（月カレンダー）  
 - **Part 3：三交代**（早・日・夜）  
 - **Part 4：時短勤務**（個別の勤務時間）  
 - **Part 5：早出・遅出**（勤務/休憩時間の考慮）  
