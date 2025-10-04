@@ -5,14 +5,6 @@
 - デモ（GitHub Pages）：https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html
 - リポジトリ：https://github.com/rehab-datascience/shiftcrafter-weekly-2shift
 
-## 連載目次
-- Part 1：1週間・二交代（本記事）
-- Part 2：1か月版（カレンダー表示・ICS出力）【次回予定】
-- Part 3：三交代（早/日/夜）
-- Part 4：時短対応（個別所定時間）
-- Part 5：早出/遅出（勤務/休憩の時刻制約）
-- Part 6：混成（看護助手含むロール/技能充足）
-
 ## 使い方
 1. 上のデモURLを開く（PC推奨）
 2. 週の開始日・必要人数・上限・看護師リストを入力
@@ -32,3 +24,11 @@
 
 ## ライセンス
 MIT
+
+## 連載目次
+- Part 1：1週間・二交代（本記事）
+- Part 2：1か月版（カレンダー表示・ICS出力）【次回予定】
+- Part 3：三交代（早/日/夜）
+- Part 4：時短対応（個別所定時間）
+- Part 5：早出/遅出（勤務/休憩の時刻制約）
+- Part 6：混成（看護助手含むロール/技能充足）
