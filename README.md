@@ -1,6 +1,8 @@
 # shiftcrafter-weekly-2shift
 
-ブラウザだけで動く、**二交代制（日勤/夜勤）の1週間シフト自動割当ツール**です。インストール不要・データ送信なし。
+- 二交代（日勤/夜勤）の1週間シフトをブラウザだけで自動割当。インストール不要・CSV出力あり・外部送信なし。
+- GitHub Pagesでデモ公開（GIFあり）→そのままExcel/スプシで共有可。
+- 連載：Part 2（月次/ICS） → Part 3（三交代）…と拡張予定（既知の非対応も明記）。
 
 - デモ（GitHub Pages）：https://rehab-datascience.github.io/shiftcrafter-weekly-2shift/index.html
 - リポジトリ：https://github.com/rehab-datascience/shiftcrafter-weekly-2shift
