@@ -49,9 +49,9 @@ day_staff_1 ... day_staff_K：日勤に割り当てられた職員名（左か�
 night_staff_1 ... night_staff_K：夜勤に割り当てられた職員名（左から充当）
 
 ### 値の扱い
-充足できない枠は空欄（または UNASSIGNED）
-同一日に同一名が重複しないように出力
-並び順：date 昇順
+- 充足できない枠は空欄（または UNASSIGNED）
+- 同一日に同一名が重複しないように出力
+- 並び順：date 昇順
 
 ### 例（抜粋）
 date,dow,need_day,need_night,day_staff_1,day_staff_2,night_staff_1
@@ -60,9 +60,9 @@ date,dow,need_day,need_night,day_staff_1,day_staff_2,night_staff_1
 2025-10-08,Wed,2,1,田中,佐藤,鈴木
 
 ### 備考
-Excelで文字化けする場合は、BOM付きCSVを推奨（本ツールのデフォルト）。
-スプレッドシートで共有する際は、1行目をヘッダとして取り込んでください。
-将来的には、分析・収集向けにLong形式の出力も実装する予定。
+- Excelで文字化けする場合は、BOM付きCSVを推奨（本ツールのデフォルト）。
+- スプレッドシートで共有する際は、1行目をヘッダとして取り込んでください。
+- 将来的には、分析・収集向けにLong形式の出力も実装する予定。
 
 ---
 
