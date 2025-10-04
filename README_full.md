@@ -39,10 +39,10 @@
 - 休み希望はテキスト欄に **`名前: 日付, 日付`** 形式で複数行  
 - 出力CSV：列 `date,day_shift,night_shift`（割当者は `;` 区切り）
 
-# A. Wide形式（本ツールの既定想定・人に配布しやすい）
+### A. Wide形式（本ツールの既定想定・人に配布しやすい）
 ファイル名：schedule_output.csv（文字コード：UTF-8（BOM付）／改行：LF）
 
-列定義
+#### 列定義
 date：日付（YYYY-MM-DD）
 dow：曜日（Mon–Sun など）
 need_day：日勤の必要人数（入力値の写し）
@@ -50,29 +50,29 @@ need_night：夜勤の必要人数（入力値の写し）
 day_staff_1 ... day_staff_K：日勤に割り当てられた職員名（左から充当）
 night_staff_1 ... night_staff_K：夜勤に割り当てられた職員名（左から充当）
 
-値の扱い
+#### 値の扱い
 充足できない枠は空欄（または UNASSIGNED）
 同一日に同一名が重複しないように出力
 並び順：date 昇順
 
-例（抜粋）
+#### 例（抜粋）
 date,dow,need_day,need_night,day_staff_1,day_staff_2,night_staff_1
 2025-10-06,Mon,2,1,田中,鈴木,佐藤
 2025-10-07,Tue,2,1,鈴木,佐藤,田中
 2025-10-08,Wed,2,1,田中,佐藤,鈴木
 
-備考
+#### 備考
 Excelで文字化けする場合は、BOM付きCSVを推奨（本ツールのデフォルト）。
 スプレッドシートで共有する際は、1行目をヘッダとして取り込んでください。
 
-# B. Long形式（分析・集計向け、将来のオプション）
-列定義
+### B. Long形式（分析・集計向け、将来のオプション）
+#### 列定義
 date：日付（YYYY-MM-DD）
 dow：曜日
 shift：Day / Night
 staff：職員名（1行＝1割当）
 
-例（抜粋）
+#### 例（抜粋）
 date,dow,shift,staff
 2025-10-06,Mon,Day,田中
 2025-10-06,Mon,Day,鈴木
