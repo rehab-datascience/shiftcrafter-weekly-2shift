@@ -1,38 +1,31 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
+name: 🐛 バグ報告 / Bug report
+about: 不具合の報告はこちら（個人情報を含めないでください）
+title: "[Bug]: "
+labels: ["bug"]
+assignees: []
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 事前確認
+- [ ] 既存のIssueを検索し、重複でないことを確認しました
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## 概要
+（何が起きたか1–2行で）
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 再現手順
+1. ～
+2. ～
+3. ～
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## 期待した動作
+（本来どうなるべきか）
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## 実際の動作
+（エラー文・スクショ・コンソールログ抜粋など）
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## 環境
+- ツールのバージョン/コミット: v0.1.0 など
+- ブラウザ/OS: 例) Chrome 126 / macOS 14.5
 
-**Additional context**
-Add any other context about the problem here.
+## 追加情報
+（匿名化した入力サンプルなど）
