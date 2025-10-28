@@ -1,0 +1,60 @@
+name: 🐛 バグ報告 / Bug report
+description: 不具合の報告はこちら
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ありがとうございます。まず **既存Issue** に重複がないか検索をお願いします。
+        ※ 個人情報・実患者データは **絶対に添付しない** でください。必要なら匿名サンプルに置き換えてください。
+  - type: checkboxes
+    id: dupcheck
+    attributes:
+      label: 事前確認
+      options:
+        - label: 既存のIssueを検索し、重複でないことを確認しました
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: ツールのバージョン / コミット
+      placeholder: v0.1.0 または 7c9e1ab
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 環境（ブラウザ/OS）
+      placeholder: 例) Chrome 126 / macOS 14.5
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 再現手順（最小）
+      description: 可能ならサンプル入力（匿名化）を添付し、手順を番号で列挙してください
+      placeholder: |
+        1. サンプルAを貼り付け
+        2. 夜勤上限=2 を指定
+        3. [シフト自動作成] をクリック
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作（エラーメッセージ/スクショ）
+      placeholder: 可能ならスクリーンショットやコンソールログを貼ってください
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 追加情報
+      placeholder: 入力データ例（匿名化）・設定値・回避策など
