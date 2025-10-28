@@ -1,20 +1,24 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
-
+name: ✨ 機能要望 / Feature request
+about: 追加したい機能・改善点（個人情報や施設固有情報は含めないでください）
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: []
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 解決したい課題（現場の困りごと）
+（例：各個人に月次の予定を配布したい）
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## 提案する解決策
+（例：各職員ごとのICS書き出しを追加）
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## 期待される効果
+（誰の何分が短縮されるか 等）
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## 対象領域（該当に✅）
+- [ ] 二交代（週次）
+- [ ] 二交代（月次/ICS）
+- [ ] 三交代
+- [ ] 早出/遅出（時刻制約）
+- [ ] 時短（個別所定時間）
+- [ ] ロール/技能（看護助手含む）
